@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.mran.gamecontrol">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    in
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.PasscodeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.XD1Activity"
+            android:label="Tùy chỉnh XD1"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BC2Activity"
+            android:label="Tùy chỉnh BC2"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BC1Activity"
+            android:label="Tùy chỉnh BC1"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BC1PlayActivity"
+            android:label="Tùy chỉnh BC1/ Chơi ngay"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BC1BattleActivity"
+            android:label="Tùy chỉnh BC1/ Đấu"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="Tùy chỉnh"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.ChangePassActivity"
+            android:label="@string/change_pass"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

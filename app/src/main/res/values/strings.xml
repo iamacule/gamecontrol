@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GameControl</string>
+    <string name="sl">Số ván</string>
+    <string name="set">Thiết lập</string>
+    <string name="off">Tắt</string>
+    <string name="sent">Đã gửi !</string>
+    <string name="main_rule">Quy tắc cái</string>
+    <string name="quantum">Số ván</string>
+    <string name="rule_offline">Quy tắc offline</string>
+    <string name="assign_num">Gán số</string>
+    <string name="rule_child">Quy tắc con</string>
+    <string name="rule_number">Quy Tắc</string>
+    <string name="additional_number">Số cộng thêm</string>
+    <string name="change_pass">Đổi mật khẩu</string>
+    <string name="input_old_pass">Nhập mật khẩu cũ</string>
+    <string name="input_new_pass">Nhập mật khẩu mới</string>
+    <string name="input_new_pass_again">Nhập lại mật khẩu mới</string>
+    <string name="wrong_pass">Sai mật khẩu cũ !</string>
+    <string name="wrong_length">Mật khẩu gồm 4 ký tự !</string>
+    <string name="wrong_null">Mật khẩu không được để trống !</string>
+    <string name="wrong_2_pass">Nhập lại mật khẩu mới không đúng !</string>
+    <string name="change_pass_success">Đổi mật khẩu thành công !</string>
+
+    <string-array name="rules_arrays">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
