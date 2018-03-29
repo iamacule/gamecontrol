@@ -55,7 +55,7 @@ public class XD1Activity extends AppCompatActivity implements View.OnClickListen
 
         xd1Write = new XD1Write();
 
-        findViewById(R.id.btnSetRuleChild).setOnClickListener(this);
+        findViewById(R.id.btnSetRule1).setOnClickListener(this);
         findViewById(R.id.btnSet2).setOnClickListener(this);
         findViewById(R.id.btnSetMain).setOnClickListener(this);
         findViewById(R.id.btnOffMain).setOnClickListener(this);
@@ -69,10 +69,10 @@ public class XD1Activity extends AppCompatActivity implements View.OnClickListen
         edtMain = findViewById(R.id.edtMain);
         edtText = findViewById(R.id.edtText);
         edtOffline = findViewById(R.id.edtOffline);
-        edtAssign1 = findViewById(R.id.edtAssign1);
-        edtAssign2 = findViewById(R.id.edtAssign2);
-        edtAssign3 = findViewById(R.id.edtAssign3);
-        edtAssign4 = findViewById(R.id.edtAssign4);
+        edtAssign1 = findViewById(R.id.edtRule1Assign1);
+        edtAssign2 = findViewById(R.id.edtRule1Assign2);
+        edtAssign3 = findViewById(R.id.edtRule1Assign3);
+        edtAssign4 = findViewById(R.id.edtRule1Assign4);
 
         initValue();
     }
@@ -175,7 +175,7 @@ public class XD1Activity extends AppCompatActivity implements View.OnClickListen
                     break;
 
                 //Rule 1
-                case R.id.btnSetRuleChild:
+                case R.id.btnSetRule1:
                     if (!Util.checkNull(edtRule1.getText().toString())) {
                         numberOfRule = Util.convertStringToInt(edtRule1.getText().toString());
                     } else {

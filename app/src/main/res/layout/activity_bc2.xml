@@ -128,7 +128,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign1"
+                    android:id="@+id/edtRule1Assign1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -141,7 +141,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign2"
+                    android:id="@+id/edtRule1Assign2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -154,7 +154,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign3"
+                    android:id="@+id/edtRule1Assign3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -167,7 +167,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign4"
+                    android:id="@+id/edtRule1Assign4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -180,7 +180,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign5"
+                    android:id="@+id/edtRule1Assign5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -193,7 +193,7 @@
                 android:gravity="center">
 
                 <EditText
-                    android:id="@+id/edtAssign6"
+                    android:id="@+id/edtRule1Assign6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -250,7 +250,7 @@
                 android:gravity="center|left">
 
                 <EditText
-                    android:id="@+id/edtRuleQuantum"
+                    android:id="@+id/edtRule1Quantum"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -276,7 +276,7 @@
                 android:gravity="center|left">
 
                 <EditText
-                    android:id="@+id/edtRuleAdditionalNumber"
+                    android:id="@+id/edtRule1AdditionalNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -295,7 +295,7 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/btnSetRuleChild"
+                    android:id="@+id/btnSetRule1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/set" />
@@ -308,7 +308,7 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/btnOffRuleChild"
+                    android:id="@+id/btnOffRule1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/off" />

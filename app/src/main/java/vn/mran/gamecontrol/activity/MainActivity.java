@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnXD1).setOnClickListener(this);
         findViewById(R.id.btnBC1).setOnClickListener(this);
         findViewById(R.id.btnBC2).setOnClickListener(this);
+        findViewById(R.id.btnBC3).setOnClickListener(this);
         findViewById(R.id.btnChangePass).setOnClickListener(this);
 
         firebaseRequest = new FirebaseRequest(getApplicationContext());
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnBC2:
                 startActivity(new Intent(this, BC2Activity.class));
+                break;
+            case R.id.btnBC3:
+                startActivity(new Intent(this, BC3Activity.class));
                 break;
             case R.id.btnChangePass:
                 startActivity(new Intent(this, ChangePassActivity.class));

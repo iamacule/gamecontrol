@@ -41,6 +41,10 @@
             android:label="Tùy chỉnh BC1/ Đấu"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".activity.BC3Activity"
+            android:label="Tùy chỉnh BC3"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".activity.MainActivity"
             android:label="Tùy chỉnh"
             android:screenOrientation="portrait"></activity>

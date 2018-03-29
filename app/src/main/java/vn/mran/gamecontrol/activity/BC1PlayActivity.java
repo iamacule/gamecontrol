@@ -49,8 +49,8 @@ public class BC1PlayActivity extends AppCompatActivity implements View.OnClickLi
         findViewById(R.id.btnOffMain).setOnClickListener(this);
         findViewById(R.id.btnSetOffline).setOnClickListener(this);
         findViewById(R.id.btnOffOffline).setOnClickListener(this);
-        findViewById(R.id.btnSetRuleChild).setOnClickListener(this);
-        findViewById(R.id.btnOffRuleChild).setOnClickListener(this);
+        findViewById(R.id.btnSetRule1).setOnClickListener(this);
+        findViewById(R.id.btnOffRule1).setOnClickListener(this);
         findViewById(R.id.btnText).setOnClickListener(this);
 
         initValue();
@@ -146,27 +146,27 @@ public class BC1PlayActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private EditText getEdtAssign1() {
-        return (EditText) findViewById(R.id.edtAssign1);
+        return (EditText) findViewById(R.id.edtRule1Assign1);
     }
 
     private EditText getEdtAssign2() {
-        return (EditText) findViewById(R.id.edtAssign2);
+        return (EditText) findViewById(R.id.edtRule1Assign2);
     }
 
     private EditText getEdtAssign3() {
-        return (EditText) findViewById(R.id.edtAssign3);
+        return (EditText) findViewById(R.id.edtRule1Assign3);
     }
 
     private EditText getEdtAssign4() {
-        return (EditText) findViewById(R.id.edtAssign4);
+        return (EditText) findViewById(R.id.edtRule1Assign4);
     }
 
     private EditText getEdtAssign5() {
-        return (EditText) findViewById(R.id.edtAssign5);
+        return (EditText) findViewById(R.id.edtRule1Assign5);
     }
 
     private EditText getEdtAssign6() {
-        return (EditText) findViewById(R.id.edtAssign6);
+        return (EditText) findViewById(R.id.edtRule1Assign6);
     }
 
     private EditText getEdtRuleNumber() {
@@ -174,11 +174,11 @@ public class BC1PlayActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private EditText getEdtRuleQuantum() {
-        return (EditText) findViewById(R.id.edtRuleQuantum);
+        return (EditText) findViewById(R.id.edtRule1Quantum);
     }
 
     private EditText getEdtRuleAdditionalNumber() {
-        return (EditText) findViewById(R.id.edtRuleAdditionalNumber);
+        return (EditText) findViewById(R.id.edtRule1AdditionalNumber);
     }
 
     private EditText getEdtText() {
@@ -273,7 +273,7 @@ public class BC1PlayActivity extends AppCompatActivity implements View.OnClickLi
                     bc1Write.writeRuleOfflinePlay(new RuleOfflinePlay(additionalNumber, bc1Write.exportAssignNumber(assignNumberArrays), ruleQuantum, RuleOfflinePlay.OFF));
                     Toast.makeText(getApplicationContext(), getString(R.string.sent), Toast.LENGTH_SHORT).show();
                     break;
-                case R.id.btnSetRuleChild:
+                case R.id.btnSetRule1:
                     if (!Util.checkNull(getEdtRuleAdditionalNumber().getText().toString())) {
                         additionalNumber = Util.convertStringToInt(getEdtRuleAdditionalNumber().getText().toString());
                     } else {
@@ -331,7 +331,7 @@ public class BC1PlayActivity extends AppCompatActivity implements View.OnClickLi
                     bc1Write.writeRuleChildPlay(new RuleChildPlay(additionalNumber, bc1Write.exportAssignNumber(assignNumberArrays), ruleQuantum, ruleNumber, RuleOfflinePlay.ON));
                     Toast.makeText(getApplicationContext(), getString(R.string.sent), Toast.LENGTH_SHORT).show();
                     break;
-                case R.id.btnOffRuleChild:
+                case R.id.btnOffRule1:
                     getEdtRuleAdditionalNumber().setText("");
                     getEdtRuleNumber().setText("");
                     getEdtRuleQuantum().setText("");

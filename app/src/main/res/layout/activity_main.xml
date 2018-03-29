@@ -24,6 +24,12 @@
         android:text="BC2" />
 
     <Button
+        android:id="@+id/btnBC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BC3" />
+
+    <Button
         android:id="@+id/btnChangePass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
