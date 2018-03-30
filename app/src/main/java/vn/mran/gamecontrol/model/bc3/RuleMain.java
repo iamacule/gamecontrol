@@ -15,8 +15,4 @@ public class RuleMain {
         this.quantum = quantum;
         this.status = status;
     }
-
-    public long getQuantum() {
-        return  quantum;
-    }
 }

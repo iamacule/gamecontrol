@@ -11,4 +11,5 @@ public interface Constant {
     String ALLOW_REQUEST = "ALLOW_REQUEST";
     String TIME = "TIME";
     String STATUS_ON = "on";
+    String STATUS_OFF = "off";
 }

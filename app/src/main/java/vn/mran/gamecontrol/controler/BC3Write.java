@@ -4,11 +4,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import vn.mran.gamecontrol.activity.MainActivity;
-import vn.mran.gamecontrol.model.bc1.RuleChild;
-import vn.mran.gamecontrol.model.bc1.RuleMain;
 import vn.mran.gamecontrol.model.bc3.Rule1;
 import vn.mran.gamecontrol.model.bc3.Rule2;
 import vn.mran.gamecontrol.model.bc3.Rule3;
+import vn.mran.gamecontrol.model.bc3.RuleMain;
 
 /**
  * Created by Mr An on 06/12/2017.
@@ -64,5 +63,15 @@ public class BC3Write {
                 arrays[3] + " " +
                 arrays[4] + " " +
                 arrays[5];
+    }
+
+    public int[] getAssignNumberArray(String arrays) {
+        String[] assignNumberArray = arrays.split(" ");
+        return new int[]{Integer.parseInt(assignNumberArray[0]),
+                Integer.parseInt(assignNumberArray[1]),
+                Integer.parseInt(assignNumberArray[2]),
+                Integer.parseInt(assignNumberArray[3]),
+                Integer.parseInt(assignNumberArray[4]),
+                Integer.parseInt(assignNumberArray[5])};
     }
 }
